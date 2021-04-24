@@ -30,4 +30,4 @@ jobs:
     - run: npm run build --if-present
     - uses: actions/upload-artifact@master
       with:
-        needs: build
+    needs: build
